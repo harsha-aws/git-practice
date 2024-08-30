@@ -21,3 +21,7 @@ exit 1
 else
 echo "instalation success"
 fi
+else
+echo "git already installed nothing to do"
+fi
+
