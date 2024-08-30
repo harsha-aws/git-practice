@@ -1,9 +1,10 @@
 #!/bin/bash
 
 NUMBER=$1
-if[ $NUMBER -gt 20 ]
+
+if [ $NUMBER -gt 20 ] #gt, lt, eq, -ne, -ge, -le
 then
-echo "given Number : $NUMBER grater than 20 "
+    echo "Given number: $NUMBER is greater than 20"
 else
-echo "given Number : $NUMBER less than 20 "
+    echo "Given number: $NUMBER is less than 20"
 fi
