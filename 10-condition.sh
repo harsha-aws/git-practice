@@ -6,3 +6,4 @@ then
 echo "given Number : $NUMBER grater than 20 "
 else
 echo "given Number : $NUMBER less than 20 "
+fi
