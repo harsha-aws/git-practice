@@ -2,7 +2,7 @@
 
 
 PERSON1=ramesh
-PERSON2= naresh
+PERSON2=naresh
 
 echo "$PERSON1 :: Hi ${PERSON2} how are you"
 echo "${PERSON2} :: Hi $PERSON2 I am doing good, How are you doing"
