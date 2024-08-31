@@ -25,7 +25,7 @@ VALIDATE(){
 CHECK_ROOT
 
 dnf list installed git
-if[ $? -ne 0 ]
+if [ $? -ne 0 ]
 then
     echo "git is not installed, please install"
     dnf git install -y
@@ -34,7 +34,7 @@ else
     echo "git already installed"
 fi
 dnf list installed nginx
-if[ $? -ne 0]
+if [ $? -ne 0]
 then
     echo " nginx is not installed, please install"
     dnf install nginx -y
