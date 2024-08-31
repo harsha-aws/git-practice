@@ -2,7 +2,7 @@
 USERID=$(id -u)
 
 CHECK_ROOT(){
-    if [ USERID -ne 0 ]
+    if [ $USERID -ne 0 ]
     then
           echo " run this crript with root access"
           exit 1
@@ -18,7 +18,8 @@ VALIDATE(){
     fi
 }
 CHECK_ROOT
-dng list installed git
+
+dnf list installed git
 
 if [ $? -ne 0 ]
 then
