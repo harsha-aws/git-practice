@@ -4,7 +4,7 @@ USERID=$(id -u)
 CHECK_ROOT(){
     if [ $USERID -ne 0 ]
     then
-          echo " run this crript with root access"
+          echo " run this script with root access"
           exit 1
     fi
 }
